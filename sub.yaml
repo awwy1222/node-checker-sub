@@ -1,8 +1,8 @@
 # ============================================================
 #  本地实测节点订阅  (node-checker 自动生成,请勿手动修改)
 # ------------------------------------------------------------
-#  实测通过: 48 个   其中高速档: 40 个
-#  实测日期: 2026-11-01 00:17
+#  实测通过: 41 个   其中高速档: 27 个
+#  实测日期: 2026-11-07 03:22
 #
 #  节点名里的数字 = 本机实测结果(不是上游标注的):
 #    ⚡香港-01 | 12ms | 下载 8.4MB/s
@@ -27,88 +27,185 @@ geox-url:
   asn: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
 geo-auto-update: false
 proxies:
-- name: 🇭🇰 香港 HKG 4 | 66ms | 下载 2.2MB/s
-  server: 56481.df6h451rh.xin
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 | 195ms | 下载 829KB/s
+  server: 137.175.82.43
   port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: ⚡🇭🇰HK_23.6MBs | 75ms | 下载 7.1MB/s
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
+  password: dongtaiwang.com
   tls: true
-  type: http
-- name: ⚡🇹🇼 🇨🇳 台湾 TWN | 89ms | 下载 9.2MB/s
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: ⚡🇭🇰 香港 HKG 6 | 108ms | 下载 6.0MB/s
-  server: 654968169.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: images.ctfassets.net
+  alpn:
+  - h3
+  up: 20
+  down: 20
+  auth-str: dongtaiwang.com
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: ⚡🇩🇪 德国 DEU 2 | 198ms | 下载 3.7MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
   skip-cert-verify: true
-- name: ⚡🇮🇩ID_11.2MBs | 118ms | 下载 16.2MB/s
-  port: 443
-  server: 103.86.117.202
-  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- type: hysteria
+  name: 🇫🇷_FR_法国_IPV4 (2) | 198ms | 下载 2.4MB/s
+  server: 163.172.117.163
+  port: 36699
+  password: dongtaiwang.com
   tls: true
-  type: http
-- name: ⚡🇯🇵JP_13.7MBs | 129ms | 下载 5.8MB/s
-  port: 40583
-  server: 120.232.204.58
+  servername: bing.com
+  sni: bing.com
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: DE_speednode_0004 | 180ms | 下载 1.7MB/s
+  alpn:
+  - h3
+  up: 11
+  down: 55
+  auth-str: dongtaiwang.com
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 20
+  name: 🇺🇸 美国 USA 2 | 203ms | 下载 1.1MB/s
   port: 443
-  server: 213.109.163.119
+  server: 137.175.82.43
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇩🇪DE_62.9MBs | 192ms | 下载 5.1MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡IE_speednode_0013 | 196ms | 下载 16.3MB/s
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇮🇪IE_32.2MBs | 198ms | 下载 17.9MB/s
-  port: 443
-  server: 18.200.158.139
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡FR_speednode_0012 | 202ms | 下载 11.1MB/s
+  sni: bing.com
+  type: hysteria
+  up: 20
+- name: ⚡FR_speednode_0012 | 203ms | 下载 9.2MB/s
   port: 443
   server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ⚡🇩🇪DE_42.3MBs | 211ms | 下载 8.8MB/s
+- name: ⚡DE_speednode_0004 | 211ms | 下载 3.0MB/s
   port: 443
-  server: 116.202.172.99
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
-- name: ⚡FR_speednode_0010 | 216ms | 下载 13.2MB/s
+  udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (2) | 218ms | 下载 1.9MB/s
+  server: 137.175.82.44
+  port: 443
+  password: dongtaiwang.com
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: 11
+  down: 55
+  auth-str: dongtaiwang.com
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  down: 55
+  name: 🇺🇸 美国 USA 4 | 221ms | 下载 2.3MB/s
+  port: 22335
+  server: 198.200.57.142
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11
+- name: ⚡LV_speednode_0021 | 223ms | 下载 18.6MB/s
+  port: 443
+  server: 185.219.159.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55
+  name: 🇺🇸 美国 USA 3 | 225ms | 下载 2.1MB/s
+  port: 443
+  server: 137.175.82.44
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11
+- type: hysteria
+  name: ⚡🇩🇪_DE_德国_IPV4 (2) | 226ms | 下载 3.9MB/s
+  server: 5.83.129.90
+  port: 54177
+  password: dongtaiwang.com
+  tls: true
+  servername: apple.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: 11
+  down: 55
+  auth-str: dongtaiwang.com
+- name: ⚡IE_speednode_0013 | 227ms | 下载 20.2MB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: hysteria
+  name: 🇺🇸_US_美国_IPV4 (3) | 233ms | 下载 2.3MB/s
+  server: 198.200.57.142
+  port: 22335
+  password: github.com/Alvin9999-newpac/fanqiang
+  tls: true
+  servername: bing.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: 11
+  down: 55
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+- name: ⚡US_speednode_0040 | 243ms | 下载 8.6MB/s
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- type: anytls
+  name: ⚡🇹🇼_TW_台湾-🇺🇸_US_美国_IPV4 | 247ms | 下载 6.2MB/s
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- type: anytls
+  name: 🇹🇼_TW_台湾_IPV4 | 247ms | 下载 319KB/s
+  server: user02.godvpn.lol
+  port: 62405
+  password: 4bbfa33a-449a-4a50-8dfc-6d0de880f7bc
+  tls: true
+  skip-cert-verify: true
+- name: ⚡🇺🇸 美国 USA 8 | 250ms | 下载 5.0MB/s
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: ⚡FR_speednode_0011 | 252ms | 下载 9.8MB/s
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
@@ -118,207 +215,57 @@ proxies:
 - alpn:
   - h3
   auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   down: 55
-  name: ⚡node_2380 | 223ms | 下载 5.9MB/s
+  name: ⚡🇫🇷 法国 FRA 2 | 258ms | 下载 4.6MB/s
   port: 24667
   protocol: udp
-  server: 62.210.70.191
+  server: 62.210.28.175
   skip-cert-verify: true
   sni: bing.com
   type: hysteria
   up: 11
-- name: ⚡🇸🇬SG_11.2MBs | 233ms | 下载 15.3MB/s
-  port: 9090
-  server: 167.99.74.174
-  type: http
-- name: ⚡US_speednode_0039 | 235ms | 下载 11.8MB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
+- type: hysteria
+  name: ⚡🇫🇷_FR_法国_IPV4 | 263ms | 下载 5.3MB/s
+  server: 62.210.28.175
+  port: 24667
+  password: dongtaiwang.com
   tls: true
-  type: http
-  udp: true
-- name: ⚡LV_speednode_0021 | 237ms | 下载 14.8MB/s
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡LV_speednode_0020 | 242ms | 下载 17.0MB/s
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇺🇸_US_美国 | 246ms | 下载 16.4MB/s
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: guanwang.awsno.com
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-- name: github.comAlvin9999-ne… | 257ms | 下载 2.3MB/s
-  type: hysteria
-  server: 163.172.117.163
-  port: 36699
-  auth-str: dongtaiwang.com
+  servername: bing.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
-  protocol: udp
   up: 11
   down: 55
-- name: US_speednode_0040 | 258ms | 下载 2.6MB/s
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡NL_speednode_0024 | 265ms | 下载 13.0MB/s
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡NL_speednode_0023 | 268ms | 下载 12.3MB/s
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡NL_speednode_0027 | 269ms | 下载 10.3MB/s
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇩🇪DE_53.4MBs | 271ms | 下载 13.8MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡US_speednode_0041 | 274ms | 下载 16.4MB/s
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇷🇺RU_12.4MBs | 281ms | 下载 15.2MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡FR_speednode_0008 | 283ms | 下载 15.3MB/s
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡IT-202.50.253.18-014… | 285ms | 下载 10.5MB/s
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: ⚡IT-202.50.253.54-016… | 286ms | 下载 12.7MB/s
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: ⚡🇫🇷FR_41.7MBs | 294ms | 下载 5.5MB/s
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡🇷🇺 俄罗斯 RUS 4 | 302ms | 下载 7.4MB/s
-  server: xssite.webredirect.org
-  port: 443
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  tls: true
-  servername: xssite.webredirect.org
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-ru
-  udp: true
-- name: ⚡NL_speednode_0025 | 307ms | 下载 10.9MB/s
+  auth-str: dongtaiwang.com
+- name: ⚡NL_speednode_0025 | 269ms | 下载 20.0MB/s
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ⚡🇧🇾 BY_01 | 312ms | 下载 9.4MB/s
-  server: bl2.nexfile.net
-  port: 4444
-  type: hysteria2
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  auth: 10be1dad-9952-4c5e-aa30-db435f69b727
-  skip-cert-verify: true
-- name: ⚡IT-202.50.253.81-0166… | 313ms | 下载 9.8MB/s
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-ru
-  name: 🇷🇺[www.v2nodes.com] vl… | 321ms | 下载 3.4MB/s
-  network: grpc
-  port: 443
-  server: xsru1.ddnsfree.com
-  servername: xsru1.ddnsfree.com
-  tls: true
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-- name: ⚡IT-202.50.253.72-016… | 325ms | 下载 13.0MB/s
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vlgrpc
-  name: ⚡🇷🇺 俄罗斯 RUS | 328ms | 下载 6.5MB/s
-  network: grpc
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55
+  name: 🇫🇷 法国 FRA | 274ms | 下载 2.4MB/s
+  port: 36699
+  server: 163.172.117.163
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 11
+- name: ⚡LV_speednode_0020 | 275ms | 下载 13.9MB/s
   port: 443
-  server: 201.24.121.243
-  servername: kk-ru24a1.testkknegr.online
-  skip-cert-verify: false
+  server: 185.219.159.15
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
-- name: 🇳🇱NL-109.104.153.43-02… | 337ms | 下载 2.2MB/s
+- name: 🇳🇱NL-109.104.153.43-03… | 280ms | 下载 970KB/s
   server: 109.104.153.43
   port: 33336
   type: ssr
@@ -326,79 +273,146 @@ proxies:
   password: dongtaiwang.com
   protocol: auth_chain_a
   obfs: tls1.2_ticket_auth
-- name: ⚡🇷🇺 俄罗斯 RUS 3 | 339ms | 下载 11.3MB/s
-  server: xsru2.freeddns.org
+- name: ⚡IT-202.50.253.18-018… | 281ms | 下载 16.9MB/s
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ⚡IT-202.50.253.90-020… | 283ms | 下载 26.7MB/s
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ⚡IT-202.50.253.72-018… | 283ms | 下载 20.9MB/s
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: ⚡FR_speednode_0008 | 293ms | 下载 12.1MB/s
+  port: 19362
+  server: 51.159.225.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱 荷兰 NLD 4 | 295ms | 下载 1.6MB/s
+  server: 76574ct.nl7.h1clayd.click
   port: 443
   type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
-  servername: xsru2.freeddns.org
+  reality-opts:
+    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
+    short-id: 2ca59bdc5121f921
+  servername: 76574ct.nl7.h1clayd.click
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
+  network: tcp
   udp: true
-- name: PL_speednode_0028 | 345ms | 下载 2.9MB/s
+- name: ⚡NL_speednode_0027 | 319ms | 下载 18.4MB/s
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: ⚡PL_speednode_0028 | 344ms | 下载 5.4MB/s
   port: 443
   server: 31.186.220.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ⚡FR_speednode_0011 | 354ms | 下载 14.2MB/s
+- name: ⚡FR_speednode_0010 | 344ms | 下载 18.4MB/s
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ⚡🇳🇱NL_51.8MBs | 354ms | 下载 10.0MB/s
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: ⚡🇩🇪DE_93.7MBs | 361ms | 下载 14.1MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ⚡DK_speednode_0005 | 379ms | 下载 5.7MB/s
+- name: ⚡DK_speednode_0005 | 348ms | 下载 26.4MB/s
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: ⚡🇧🇷BR_12.7MBs | 414ms | 下载 9.4MB/s
+- client-fingerprint: firefox
+  name: '⚡🇷🇺 俄罗斯 RUS #1 | 353ms | 下载 21.3MB/s'
+  network: xhttp
   port: 443
-  server: 134.65.17.77
+  server: 193.160.208.240
+  servername: 193.160.208.240
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+- name: ⚡DK_speednode_0006 | 357ms | 下载 23.4MB/s
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: ⚡IT-202.50.253.36-017… | 438ms | 下载 11.2MB/s
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇵🇱 波兰 POL | 489ms | 下载 508KB/s
-  server: 185.178.208.140
+  udp: true
+- name: 🇩🇪 德国 DEU 3 | 365ms | 下载 2.3MB/s
+  server: 178.214.109.1
   port: 443
   type: vless
-  uuid: ea277838-a188-44f1-a2e8-94aa110c4f27
+  uuid: 40a86b1b-239d-455e-b53f-4c270788ba6e
   tls: true
-  servername: static.bakarova-top.ru
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /api/v2/events
-    host: static.bakarova-top.ru
-    mode: packet-up
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
+    short-id: 1cfa55abe4d2dc7a
+  servername: promo-digital.wb.ru
+  client-fingerprint: edge
+  network: tcp
+  udp: true
+- name: ⚡NL_speednode_0024 | 372ms | 下载 20.4MB/s
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: ⚡NL_speednode_0023 | 372ms | 下载 11.8MB/s
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: ⚡US_speednode_0039 | 401ms | 下载 7.0MB/s
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: FR_speednode_0009 | 419ms | 下载 2.3MB/s
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱 荷兰 NLD 3 | 488ms | 下载 2.5MB/s
+  server: 15d7fft.nl11.h1clayd.click
+  port: 443
+  type: vless
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  tls: true
+  reality-opts:
+    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
+    short-id: c71118d9399fb8c2
+  servername: 15d7fft.nl11.h1clayd.click
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 proxy-groups:
 - name: 🚀 节点选择
@@ -411,46 +425,33 @@ proxy-groups:
 - name: ⚡ 高速节点
   type: url-test
   proxies:
-  - ⚡🇭🇰HK_23.6MBs | 75ms | 下载 7.1MB/s
-  - ⚡🇹🇼 🇨🇳 台湾 TWN | 89ms | 下载 9.2MB/s
-  - ⚡🇭🇰 香港 HKG 6 | 108ms | 下载 6.0MB/s
-  - ⚡🇮🇩ID_11.2MBs | 118ms | 下载 16.2MB/s
-  - ⚡🇯🇵JP_13.7MBs | 129ms | 下载 5.8MB/s
-  - ⚡🇩🇪DE_62.9MBs | 192ms | 下载 5.1MB/s
-  - ⚡IE_speednode_0013 | 196ms | 下载 16.3MB/s
-  - ⚡🇮🇪IE_32.2MBs | 198ms | 下载 17.9MB/s
-  - ⚡FR_speednode_0012 | 202ms | 下载 11.1MB/s
-  - ⚡🇩🇪DE_42.3MBs | 211ms | 下载 8.8MB/s
-  - ⚡FR_speednode_0010 | 216ms | 下载 13.2MB/s
-  - ⚡node_2380 | 223ms | 下载 5.9MB/s
-  - ⚡🇸🇬SG_11.2MBs | 233ms | 下载 15.3MB/s
-  - ⚡US_speednode_0039 | 235ms | 下载 11.8MB/s
-  - ⚡LV_speednode_0021 | 237ms | 下载 14.8MB/s
-  - ⚡LV_speednode_0020 | 242ms | 下载 17.0MB/s
-  - ⚡🇺🇸_US_美国 | 246ms | 下载 16.4MB/s
-  - ⚡NL_speednode_0024 | 265ms | 下载 13.0MB/s
-  - ⚡NL_speednode_0023 | 268ms | 下载 12.3MB/s
-  - ⚡NL_speednode_0027 | 269ms | 下载 10.3MB/s
-  - ⚡🇩🇪DE_53.4MBs | 271ms | 下载 13.8MB/s
-  - ⚡US_speednode_0041 | 274ms | 下载 16.4MB/s
-  - ⚡🇷🇺RU_12.4MBs | 281ms | 下载 15.2MB/s
-  - ⚡FR_speednode_0008 | 283ms | 下载 15.3MB/s
-  - ⚡IT-202.50.253.18-014… | 285ms | 下载 10.5MB/s
-  - ⚡IT-202.50.253.54-016… | 286ms | 下载 12.7MB/s
-  - ⚡🇫🇷FR_41.7MBs | 294ms | 下载 5.5MB/s
-  - ⚡🇷🇺 俄罗斯 RUS 4 | 302ms | 下载 7.4MB/s
-  - ⚡NL_speednode_0025 | 307ms | 下载 10.9MB/s
-  - ⚡🇧🇾 BY_01 | 312ms | 下载 9.4MB/s
-  - ⚡IT-202.50.253.81-0166… | 313ms | 下载 9.8MB/s
-  - ⚡IT-202.50.253.72-016… | 325ms | 下载 13.0MB/s
-  - ⚡🇷🇺 俄罗斯 RUS | 328ms | 下载 6.5MB/s
-  - ⚡🇷🇺 俄罗斯 RUS 3 | 339ms | 下载 11.3MB/s
-  - ⚡FR_speednode_0011 | 354ms | 下载 14.2MB/s
-  - ⚡🇳🇱NL_51.8MBs | 354ms | 下载 10.0MB/s
-  - ⚡🇩🇪DE_93.7MBs | 361ms | 下载 14.1MB/s
-  - ⚡DK_speednode_0005 | 379ms | 下载 5.7MB/s
-  - ⚡🇧🇷BR_12.7MBs | 414ms | 下载 9.4MB/s
-  - ⚡IT-202.50.253.36-017… | 438ms | 下载 11.2MB/s
+  - ⚡IT-202.50.253.90-020… | 283ms | 下载 26.7MB/s
+  - ⚡DK_speednode_0005 | 348ms | 下载 26.4MB/s
+  - ⚡DK_speednode_0006 | 357ms | 下载 23.4MB/s
+  - '⚡🇷🇺 俄罗斯 RUS #1 | 353ms | 下载 21.3MB/s'
+  - ⚡IT-202.50.253.72-018… | 283ms | 下载 20.9MB/s
+  - ⚡NL_speednode_0024 | 372ms | 下载 20.4MB/s
+  - ⚡IE_speednode_0013 | 227ms | 下载 20.2MB/s
+  - ⚡NL_speednode_0025 | 269ms | 下载 20.0MB/s
+  - ⚡LV_speednode_0021 | 223ms | 下载 18.6MB/s
+  - ⚡FR_speednode_0010 | 344ms | 下载 18.4MB/s
+  - ⚡NL_speednode_0027 | 319ms | 下载 18.4MB/s
+  - ⚡IT-202.50.253.18-018… | 281ms | 下载 16.9MB/s
+  - ⚡LV_speednode_0020 | 275ms | 下载 13.9MB/s
+  - ⚡FR_speednode_0008 | 293ms | 下载 12.1MB/s
+  - ⚡NL_speednode_0023 | 372ms | 下载 11.8MB/s
+  - ⚡FR_speednode_0011 | 252ms | 下载 9.8MB/s
+  - ⚡FR_speednode_0012 | 203ms | 下载 9.2MB/s
+  - ⚡US_speednode_0040 | 243ms | 下载 8.6MB/s
+  - ⚡US_speednode_0039 | 401ms | 下载 7.0MB/s
+  - ⚡🇹🇼_TW_台湾-🇺🇸_US_美国_IPV4 | 247ms | 下载 6.2MB/s
+  - ⚡PL_speednode_0028 | 344ms | 下载 5.4MB/s
+  - ⚡🇫🇷_FR_法国_IPV4 | 263ms | 下载 5.3MB/s
+  - ⚡🇺🇸 美国 USA 8 | 250ms | 下载 5.0MB/s
+  - ⚡🇫🇷 法国 FRA 2 | 258ms | 下载 4.6MB/s
+  - ⚡🇩🇪_DE_德国_IPV4 (2) | 226ms | 下载 3.9MB/s
+  - ⚡🇩🇪 德国 DEU 2 | 198ms | 下载 3.7MB/s
+  - ⚡DE_speednode_0004 | 211ms | 下载 3.0MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -458,65 +459,64 @@ proxy-groups:
 - name: ✅ 可用节点
   type: select
   proxies:
-  - 🇭🇰 香港 HKG 4 | 66ms | 下载 2.2MB/s
-  - DE_speednode_0004 | 180ms | 下载 1.7MB/s
-  - github.comAlvin9999-ne… | 257ms | 下载 2.3MB/s
-  - US_speednode_0040 | 258ms | 下载 2.6MB/s
-  - 🇷🇺[www.v2nodes.com] vl… | 321ms | 下载 3.4MB/s
-  - 🇳🇱NL-109.104.153.43-02… | 337ms | 下载 2.2MB/s
-  - PL_speednode_0028 | 345ms | 下载 2.9MB/s
-  - 🇵🇱 波兰 POL | 489ms | 下载 508KB/s
+  - 🇺🇸_US_美国_IPV4 | 195ms | 下载 829KB/s
+  - 🇫🇷_FR_法国_IPV4 (2) | 198ms | 下载 2.4MB/s
+  - 🇺🇸 美国 USA 2 | 203ms | 下载 1.1MB/s
+  - 🇺🇸_US_美国_IPV4 (2) | 218ms | 下载 1.9MB/s
+  - 🇺🇸 美国 USA 4 | 221ms | 下载 2.3MB/s
+  - 🇺🇸 美国 USA 3 | 225ms | 下载 2.1MB/s
+  - 🇺🇸_US_美国_IPV4 (3) | 233ms | 下载 2.3MB/s
+  - 🇹🇼_TW_台湾_IPV4 | 247ms | 下载 319KB/s
+  - 🇫🇷 法国 FRA | 274ms | 下载 2.4MB/s
+  - 🇳🇱NL-109.104.153.43-03… | 280ms | 下载 970KB/s
+  - 🇳🇱 荷兰 NLD 4 | 295ms | 下载 1.6MB/s
+  - 🇩🇪 德国 DEU 3 | 365ms | 下载 2.3MB/s
+  - FR_speednode_0009 | 419ms | 下载 2.3MB/s
+  - 🇳🇱 荷兰 NLD 3 | 488ms | 下载 2.5MB/s
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇭🇰 香港 HKG 4 | 66ms | 下载 2.2MB/s
-  - ⚡🇭🇰HK_23.6MBs | 75ms | 下载 7.1MB/s
-  - ⚡🇹🇼 🇨🇳 台湾 TWN | 89ms | 下载 9.2MB/s
-  - ⚡🇭🇰 香港 HKG 6 | 108ms | 下载 6.0MB/s
-  - ⚡🇮🇩ID_11.2MBs | 118ms | 下载 16.2MB/s
-  - ⚡🇯🇵JP_13.7MBs | 129ms | 下载 5.8MB/s
-  - DE_speednode_0004 | 180ms | 下载 1.7MB/s
-  - ⚡🇩🇪DE_62.9MBs | 192ms | 下载 5.1MB/s
-  - ⚡IE_speednode_0013 | 196ms | 下载 16.3MB/s
-  - ⚡🇮🇪IE_32.2MBs | 198ms | 下载 17.9MB/s
-  - ⚡FR_speednode_0012 | 202ms | 下载 11.1MB/s
-  - ⚡🇩🇪DE_42.3MBs | 211ms | 下载 8.8MB/s
-  - ⚡FR_speednode_0010 | 216ms | 下载 13.2MB/s
-  - ⚡node_2380 | 223ms | 下载 5.9MB/s
-  - ⚡🇸🇬SG_11.2MBs | 233ms | 下载 15.3MB/s
-  - ⚡US_speednode_0039 | 235ms | 下载 11.8MB/s
-  - ⚡LV_speednode_0021 | 237ms | 下载 14.8MB/s
-  - ⚡LV_speednode_0020 | 242ms | 下载 17.0MB/s
-  - ⚡🇺🇸_US_美国 | 246ms | 下载 16.4MB/s
-  - github.comAlvin9999-ne… | 257ms | 下载 2.3MB/s
-  - US_speednode_0040 | 258ms | 下载 2.6MB/s
-  - ⚡NL_speednode_0024 | 265ms | 下载 13.0MB/s
-  - ⚡NL_speednode_0023 | 268ms | 下载 12.3MB/s
-  - ⚡NL_speednode_0027 | 269ms | 下载 10.3MB/s
-  - ⚡🇩🇪DE_53.4MBs | 271ms | 下载 13.8MB/s
-  - ⚡US_speednode_0041 | 274ms | 下载 16.4MB/s
-  - ⚡🇷🇺RU_12.4MBs | 281ms | 下载 15.2MB/s
-  - ⚡FR_speednode_0008 | 283ms | 下载 15.3MB/s
-  - ⚡IT-202.50.253.18-014… | 285ms | 下载 10.5MB/s
-  - ⚡IT-202.50.253.54-016… | 286ms | 下载 12.7MB/s
-  - ⚡🇫🇷FR_41.7MBs | 294ms | 下载 5.5MB/s
-  - ⚡🇷🇺 俄罗斯 RUS 4 | 302ms | 下载 7.4MB/s
-  - ⚡NL_speednode_0025 | 307ms | 下载 10.9MB/s
-  - ⚡🇧🇾 BY_01 | 312ms | 下载 9.4MB/s
-  - ⚡IT-202.50.253.81-0166… | 313ms | 下载 9.8MB/s
-  - 🇷🇺[www.v2nodes.com] vl… | 321ms | 下载 3.4MB/s
-  - ⚡IT-202.50.253.72-016… | 325ms | 下载 13.0MB/s
-  - ⚡🇷🇺 俄罗斯 RUS | 328ms | 下载 6.5MB/s
-  - 🇳🇱NL-109.104.153.43-02… | 337ms | 下载 2.2MB/s
-  - ⚡🇷🇺 俄罗斯 RUS 3 | 339ms | 下载 11.3MB/s
-  - PL_speednode_0028 | 345ms | 下载 2.9MB/s
-  - ⚡FR_speednode_0011 | 354ms | 下载 14.2MB/s
-  - ⚡🇳🇱NL_51.8MBs | 354ms | 下载 10.0MB/s
-  - ⚡🇩🇪DE_93.7MBs | 361ms | 下载 14.1MB/s
-  - ⚡DK_speednode_0005 | 379ms | 下载 5.7MB/s
-  - ⚡🇧🇷BR_12.7MBs | 414ms | 下载 9.4MB/s
-  - ⚡IT-202.50.253.36-017… | 438ms | 下载 11.2MB/s
-  - 🇵🇱 波兰 POL | 489ms | 下载 508KB/s
+  - 🇺🇸_US_美国_IPV4 | 195ms | 下载 829KB/s
+  - ⚡🇩🇪 德国 DEU 2 | 198ms | 下载 3.7MB/s
+  - 🇫🇷_FR_法国_IPV4 (2) | 198ms | 下载 2.4MB/s
+  - 🇺🇸 美国 USA 2 | 203ms | 下载 1.1MB/s
+  - ⚡FR_speednode_0012 | 203ms | 下载 9.2MB/s
+  - ⚡DE_speednode_0004 | 211ms | 下载 3.0MB/s
+  - 🇺🇸_US_美国_IPV4 (2) | 218ms | 下载 1.9MB/s
+  - 🇺🇸 美国 USA 4 | 221ms | 下载 2.3MB/s
+  - ⚡LV_speednode_0021 | 223ms | 下载 18.6MB/s
+  - 🇺🇸 美国 USA 3 | 225ms | 下载 2.1MB/s
+  - ⚡🇩🇪_DE_德国_IPV4 (2) | 226ms | 下载 3.9MB/s
+  - ⚡IE_speednode_0013 | 227ms | 下载 20.2MB/s
+  - 🇺🇸_US_美国_IPV4 (3) | 233ms | 下载 2.3MB/s
+  - ⚡US_speednode_0040 | 243ms | 下载 8.6MB/s
+  - ⚡🇹🇼_TW_台湾-🇺🇸_US_美国_IPV4 | 247ms | 下载 6.2MB/s
+  - 🇹🇼_TW_台湾_IPV4 | 247ms | 下载 319KB/s
+  - ⚡🇺🇸 美国 USA 8 | 250ms | 下载 5.0MB/s
+  - ⚡FR_speednode_0011 | 252ms | 下载 9.8MB/s
+  - ⚡🇫🇷 法国 FRA 2 | 258ms | 下载 4.6MB/s
+  - ⚡🇫🇷_FR_法国_IPV4 | 263ms | 下载 5.3MB/s
+  - ⚡NL_speednode_0025 | 269ms | 下载 20.0MB/s
+  - 🇫🇷 法国 FRA | 274ms | 下载 2.4MB/s
+  - ⚡LV_speednode_0020 | 275ms | 下载 13.9MB/s
+  - 🇳🇱NL-109.104.153.43-03… | 280ms | 下载 970KB/s
+  - ⚡IT-202.50.253.18-018… | 281ms | 下载 16.9MB/s
+  - ⚡IT-202.50.253.90-020… | 283ms | 下载 26.7MB/s
+  - ⚡IT-202.50.253.72-018… | 283ms | 下载 20.9MB/s
+  - ⚡FR_speednode_0008 | 293ms | 下载 12.1MB/s
+  - 🇳🇱 荷兰 NLD 4 | 295ms | 下载 1.6MB/s
+  - ⚡NL_speednode_0027 | 319ms | 下载 18.4MB/s
+  - ⚡PL_speednode_0028 | 344ms | 下载 5.4MB/s
+  - ⚡FR_speednode_0010 | 344ms | 下载 18.4MB/s
+  - ⚡DK_speednode_0005 | 348ms | 下载 26.4MB/s
+  - '⚡🇷🇺 俄罗斯 RUS #1 | 353ms | 下载 21.3MB/s'
+  - ⚡DK_speednode_0006 | 357ms | 下载 23.4MB/s
+  - 🇩🇪 德国 DEU 3 | 365ms | 下载 2.3MB/s
+  - ⚡NL_speednode_0024 | 372ms | 下载 20.4MB/s
+  - ⚡NL_speednode_0023 | 372ms | 下载 11.8MB/s
+  - ⚡US_speednode_0039 | 401ms | 下载 7.0MB/s
+  - FR_speednode_0009 | 419ms | 下载 2.3MB/s
+  - 🇳🇱 荷兰 NLD 3 | 488ms | 下载 2.5MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
